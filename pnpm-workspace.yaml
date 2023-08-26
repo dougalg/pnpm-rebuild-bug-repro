@@ -1,0 +1,4 @@
+packages:
+  - 'eslint-config-babel'
+  - 'rollup-config-babel'
+  - 'packages/*'

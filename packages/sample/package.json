@@ -1,0 +1,29 @@
+{
+   "name": "sample",
+   "version": "1.1.0",
+   "type": "module",
+   "main": "./dist/index.js",
+   "types": "./dist/index.d.ts",
+   "files": [
+     "/dist"
+   ],
+   "repository": {
+     "type": "git",
+     "url": ""
+   },
+   "license": "UNLICENSED",
+   "publishConfig": {
+     "registry": "https://npm.pkg.github.com"
+   },
+   "peerDependencies": {
+     "@babel/runtime": "^7.13.9",
+     "lodash": ">= 4.17.15"
+   },
+   "scripts": {
+     "build": "tsc && rollup -c node:rollup-config-babel"
+   },
+   "devDependencies": {
+     "eslint-config-babel": "workspace:^",
+     "rollup-config-babel": "workspace:^"
+   }
+ }
